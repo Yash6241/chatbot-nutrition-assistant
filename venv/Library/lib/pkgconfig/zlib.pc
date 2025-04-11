@@ -1,0 +1,13 @@
+prefix=D:/CHATBOTDIETNUTREINT/venv/Library
+exec_prefix=D:/CHATBOTDIETNUTREINT/venv/Library
+libdir=D:/CHATBOTDIETNUTREINT/venv/Library/lib
+sharedlibdir=D:/CHATBOTDIETNUTREINT/venv/Library/lib
+includedir=D:/CHATBOTDIETNUTREINT/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
